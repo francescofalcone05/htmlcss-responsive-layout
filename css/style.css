@@ -6,23 +6,25 @@
     padding: 0;
 }
 
+.container{
+    width: 100%;
+}
+
 .flex{
     display: flex;
 }
 
 .vw{
     width: 100%;
-    margin: 0 auto;
     padding: 1.5rem 0;
 }
 
 .card{
-    width: calc(100% - 2rem);
+    width: calc(100% - 4rem);
     min-height: 10rem;
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 2rem;
     border-radius: 10px;
     padding: 0.5rem 0.5rem;
-    border: dashed;
 }
 
 h2{
@@ -63,6 +65,13 @@ h2{
 
 .demo-card>.container>.card{
     background-color: aqua;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.demo-app{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .demo-card>.container>.card h3{
@@ -72,6 +81,24 @@ h2{
     font-size: 1.6rem;
 }
 
+.demo-text>p{
+    text-align: left;
+}
+
+.demo-text>button{
+    color: white;
+    background-color: blue;
+    padding: 0.5rem 4.5rem;
+    margin: 1rem auto;
+    border-radius: 16px;
+    border: none;
+}
+
+.demo-app>img{
+    width: 100%;
+    height: fit-content;
+}
+
 .card>div{
     width: 100%;
     padding: 0.5rem 0.5rem;
@@ -79,6 +106,18 @@ h2{
 
 .demo-card .card{
     flex-direction: column;
+}
+
+.demo-card>.container>.card>i{
+    display: block;
+    color: blue;
+    margin: 1.5rem auto;
+    text-align: center;
+    transform: scale(3);
+}
+
+.demo-card>.container>.card>p{
+    margin-bottom: 0.5rem;
 }
 
 /* sezione 2 */
