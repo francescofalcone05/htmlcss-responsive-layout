@@ -39,10 +39,14 @@ h2{
 .nav-bar{
     width: 100%;
     background-color: blue;  
-    justify-content: space-between; 
 }
 
-.nav-bar>div{
+.nav-bar>.container{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.nav-bar>.container>div{
     padding: 1rem 0.7rem;
     color: white;
 }
@@ -53,14 +57,19 @@ h2{
 /* sezine 1 */
 
 
-.container{
+.demo-card>.container{
     flex-flow: column wrap;
 }
 
 .demo-card>.container>.card{
     background-color: aqua;
-    text-align: center;
+}
 
+.demo-card>.container>.card h3{
+    color: blue;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.6rem;
 }
 
 .card>div{
@@ -82,6 +91,11 @@ h2{
 
 }
 
+.strategic-planning>.container{
+    flex-flow: column wrap;
+}
+
+
 .strategic-planning .card{
     min-height: 10rem;
     
@@ -97,6 +111,9 @@ h2{
 }
 
 /* sezione 3 */
+.members-card>.container{
+    flex-flow: column wrap;
+}
 
 .members-card>.container>.card{
     background-color:blueviolet ;
@@ -112,6 +129,11 @@ h2{
     background-color: blueviolet;
 }
 
+.benefits>.container{
+    flex-flow: column wrap;
+}
+
+
 .benefits>.container>.card{
     background-color:white;
 }
@@ -123,8 +145,15 @@ h2{
 
 /* sezione 5 */
 
+.about-us>.container{
+    flex-flow: column wrap;
+}
+
+
 .about-us h2{
     color: blueviolet;
+    padding: 0;
+    margin: 0;
 }
 
 .about-us .card>p{
@@ -159,11 +188,17 @@ h2{
     color: goldenrod;
 }
 
+.try>.container>p{
+    color: white;
+    font-size: 0.7rem;
+}
+
 .try>.container>button{
     margin: 1rem 0;
     padding: 0.7rem 2rem;
     border-radius: 16px;
-
+    color: blueviolet;
+    border: none;
 }
 
 
@@ -177,4 +212,10 @@ h2{
     max-width: 220px;
     margin: 0 auto;
     text-align: center;
+}
+
+.end-page>.container>p{
+    color: white;
+    font-size: 0.5rem;
+    margin: 1rem auto;
 }
