@@ -1,5 +1,180 @@
+/***********  COMMON **********/
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.vw{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+
+.card{
+    width: calc(100% - 2rem);
+    min-height: 10rem;
+    margin: 0.5rem 1rem;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    border: dashed;
+}
+
+h2{
+    padding: 0 2rem;
+    margin: 1rem auto;
+    font-size: 2.5rem;
+}
+
+
+
+
+/********** HEADER **********/
+
+.nav-bar{
+    width: 100%;
+    background-color: blue;  
+    justify-content: space-between; 
+}
+
+.nav-bar>div{
+    padding: 1rem 0.7rem;
+    color: white;
+}
+
+
+/*********** MAIN/SECTIONS **********/
+
+/* sezine 1 */
+
+
+.container{
+    flex-flow: column wrap;
+}
+
+.demo-card>.container>.card{
+    background-color: aqua;
+    text-align: center;
+
+}
+
+.card>div{
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+}
+
+.demo-card .card{
+    flex-direction: column;
+}
+
+/* sezione 2 */
+
+
+.strategic-planning{
+    background-color: blueviolet;
+    flex-direction: column;
+    padding: ;
+
+}
+
+.strategic-planning .card{
+    min-height: 10rem;
+    
+}
+
+.strategic-planning>.container>.card:last-child{
+    background-color: white;
+}
+
+
+.strategic-planning>.container>.card:first-child{
+    background-color:blueviolet;
+}
+
+/* sezione 3 */
+
+.members-card>.container>.card{
+    background-color:blueviolet ;
+}
+
+.members-card>.container>.card:first-child{
+    background-color: white;
+}
+
+/* sezione 4 */
+
+.benefits{
+    background-color: blueviolet;
+}
+
+.benefits>.container>.card{
+    background-color:white;
+}
+
+.benefits h2{
+    color: white;
+    text-align: center;
+}
+
+/* sezione 5 */
+
+.about-us h2{
+    color: blueviolet;
+}
+
+.about-us .card>p{
+    margin: 1rem auto;
+}
+
+
+/* sezione 6 */
+
+.try{
+    background-color: blueviolet;
+
+}
+
+.try>.container{
+    max-width: 220px ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.try>.container>span{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.try>.container>h3{
+    color: white;
+    padding: 1rem;
+}
+
+.try>.container>h2{
+    color: goldenrod;
+}
+
+.try>.container>button{
+    margin: 1rem 0;
+    padding: 0.7rem 2rem;
+    border-radius: 16px;
+
+}
+
+
+/*********** FOOTER **********/
+
+.end-page{
+    background-color: black;
+}
+
+.end-page>.container{
+    max-width: 220px;
+    margin: 0 auto;
+    text-align: center;
 }
