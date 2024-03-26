@@ -224,6 +224,7 @@ h2{
 
 .text-member>p{
     padding: 2rem 0;
+    font-size: 1.5rem;
 }
 
 .text-member{
@@ -301,12 +302,13 @@ h2{
 
 .about-us .card:last-child>h2{
     padding: 2rem 0;
+    font-size: 2rem;
 }
 
 .about-us .card:last-child>button{
     color: white;
     background-color: blueviolet;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 0.3rem 1rem;
 }
 
@@ -389,6 +391,18 @@ h2{
     }
 
 
+    .members-card>.container>.flex{
+        flex-flow: row nowrap;
+    }
+    
+    .members-card .img-member{
+        width: 25%;
+    }
+
+    .members-card .text-member{
+        width: 75%;
+        text-align: left;
+    }
 
     .benefits>.container{
         flex-flow: row wrap;
@@ -411,5 +425,53 @@ h2{
 
     .about-us>.container>.card:last-child{
         width: calc(100% / 3 - 2rem);
-    }    
+    }  
+    
+
+    
+    .try>.container{
+        max-width: unset;
+    }
+
+
+
+    .end-page>.container{
+        max-width:unset;
+    }
+}
+
+
+/* computer size */
+
+@media screen and (min-width: 1000px) { 
+   
+   
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+
+
+    .strategic-planning>.container{
+        flex-flow: row nowrap;
+    }
+
+    .strategic-planning .card{
+        width: 50%;
+    }
+
+
+
+
+    .benefits>.container>.card{
+        width: calc(100% / 3 - 2rem)
+    }
+
+    .benefits>.container>h2{
+        display: block;
+        width: 100%;
+    }
+
 }
