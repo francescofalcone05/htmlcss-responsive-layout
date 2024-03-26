@@ -16,15 +16,15 @@
 
 .vw{
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 3rem 0;
 }
 
 .card{
     width: calc(100% - 2rem);
     min-height: 10rem;
-    margin: 0.5rem 1rem;
-    border-radius: 10px;
-    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
 }
 
 h2{
@@ -69,19 +69,16 @@ h2{
     text-align: center;
 }
 
-.demo-app{
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
 
 .demo-card>.container>.card h3{
     color: blue;
     margin: 1rem auto;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .demo-text>p{
     text-align: left;
+    font-size: 1.4rem;
 }
 
 .demo-text>button{
@@ -115,7 +112,8 @@ h2{
 }
 
 .demo-card>.container>.card>p{
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
 }
 
 /* sezione 2 */
@@ -135,7 +133,6 @@ h2{
 
 .strategic-planning .card{
     min-height: 10rem;
-    
 }
 
 .strategic-planning>.container>.card:last-child{
@@ -145,6 +142,51 @@ h2{
 
 .strategic-planning>.container>.card:first-child{
     background-color:blueviolet;
+}
+
+.planning1>img{
+    width: 100%;
+}
+
+.planning1>h2{
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.planning1>p{
+    font-size: 1.7rem;
+    padding: 1rem;
+    color: white;
+}
+
+.planning2{
+   text-align: center;
+}
+
+.planning2>img{
+    width: 100%;
+}
+
+
+.planning2>h2{
+    text-align: center;
+}
+
+.planning2>p{
+    color: black;
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.planning2>i{
+    margin: 1rem auto;
+    background-color: blueviolet;
+    font-size: 4rem;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
 }
 
 /* sezione 3 */
@@ -158,6 +200,36 @@ h2{
 
 .members-card>.container>.card:first-child{
     background-color: white;
+    text-align: center;
+}
+
+.members-card>.container>.card:first-child>h2{
+    color: blueviolet;
+    padding: 1rem 0;
+}
+
+.members-card>.container>.card:first-child>p{
+    font-size: 1.7rem;
+}
+
+.members-card>.container>.flex{
+    flex-direction: column;
+}
+
+.img-member>img{
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 45%;
+}
+
+.text-member>p{
+    padding: 2rem 0;
+}
+
+.text-member{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 /* sezione 4 */
