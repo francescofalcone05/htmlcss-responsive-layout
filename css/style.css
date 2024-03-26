@@ -245,11 +245,33 @@ h2{
 
 .benefits>.container>.card{
     background-color:white;
+    padding: 2rem;
 }
 
-.benefits h2{
+.benefits>.container>h2{
     color: white;
     text-align: center;
+}
+
+.benefits>.container>.card>h2{
+    color: blueviolet;
+    padding: 0;
+}
+
+.benefits>.container>.card>h3{
+    color: blueviolet;
+}
+
+.benefits>.container>.card>p{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+
+.benefits>.container>.card>button{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 10%;
 }
 
 /* sezione 5 */
@@ -266,7 +288,26 @@ h2{
 }
 
 .about-us .card>p{
-    margin: 1rem auto;
+    margin: 2rem auto;
+    font-size: 1.7rem;
+
+}
+
+.about-us .card>img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.about-us .card:last-child>h2{
+    padding: 2rem 0;
+}
+
+.about-us .card:last-child>button{
+    color: white;
+    background-color: blueviolet;
+    font-size: 1.3rem;
+    padding: 0.3rem 1rem;
 }
 
 
@@ -274,7 +315,6 @@ h2{
 
 .try{
     background-color: blueviolet;
-
 }
 
 .try>.container{
