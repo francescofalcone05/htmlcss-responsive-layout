@@ -46,6 +46,7 @@ h2{
 .nav-bar>.container{
     justify-content: space-between;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 .nav-bar>.container>div{
@@ -53,6 +54,30 @@ h2{
     color: white;
 }
 
+.nav-bar .logo>img{
+    width: 3rem;
+}
+
+.nav-bar .icona{
+    font-size: 1rem;
+
+}
+
+.nav-bar .link-bar{
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.nav-bar .link-bar>span{
+    padding-right: 2rem;
+}
+
+.nav-bar .link-bar>button{
+    padding: 0.1rem 0.2rem;
+    border-radius: 15%;
+    border: none;
+}
 
 /*********** MAIN/SECTIONS **********/
 
@@ -441,7 +466,7 @@ h2{
 }
 
 
-/* computer size */
+/* monitor size */
 
 @media screen and (min-width: 1000px) { 
    
@@ -449,6 +474,17 @@ h2{
     .container{
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+
+
+    .nav-bar>.container>.icona{
+        display: none;
+    }
+    
+    .nav-bar .link-bar{
+
+    display: unset;
     }
 
 
